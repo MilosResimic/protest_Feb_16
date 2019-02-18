@@ -1,0 +1,53 @@
+{
+  "type": "network",
+  "version": "1.0",
+  "data": "data.json",
+  "logo": {
+    "file": "",
+    "link": "",
+    "text": "Milos Resimic"
+  },
+  "text": {
+    "more": "Network is based on tweets with hashtag #1od5miliona collected between Feb 13-17. The network has 4148 nodes and 10297 links. Links exist if one user retweets another user\u0027s tweet. Nodes are colored based on modularity class. Strong polarization is visible. Green color is for anti-govt users, while reddish is for pro-govt.Unlike the networks of previous protests, the pro-govt twitter community is more prominent.",
+    "intro": " ",
+    "title": "Twitterverse of #1od5miliona protest from February 16"
+  },
+  "legend": {
+    "edgeLabel": " retweet",
+    "colorLabel": "Modularity class",
+    "nodeLabel": "Twitter user"
+  },
+  "features": {
+    "search": true,
+    "groupSelectorAttribute": "Label",
+    "hoverBehavior": "dim"
+  },
+  "informationPanel": {
+    "groupByEdgeDirection": false,
+    "imageAttribute": false
+  },
+  "sigma": {
+    "drawingProperties": {
+      "defaultEdgeType": "curve",
+      "defaultHoverLabelBGColor": "#002147",
+      "defaultLabelBGColor": "#ddd",
+      "activeFontStyle": "bold",
+      "defaultLabelColor": "#000",
+      "labelThreshold": 10,
+      "defaultLabelHoverColor": "#fff",
+      "fontStyle": "bold",
+      "hoverFontStyle": "bold",
+      "defaultLabelSize": 14
+    },
+    "graphProperties": {
+      "maxEdgeSize": 0.5,
+      "minEdgeSize": 0.2,
+      "minNodeSize": 1,
+      "maxNodeSize": 7
+    },
+    "mouseProperties": {
+      "maxRatio": 20,
+      "minRatio": 0.75
+    }
+  }
+}
